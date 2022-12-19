@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    background-color: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+body{
+    background: url(/images/jellyfish-698521_1920.jpg) no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #424242;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 900px;
+    /* border: 8px solid rgb(0, 73, 176); */
+    border-radius: 8px;
+    height: 600px;
+    padding: 20px 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#input-area{
+    margin-bottom: 15px;
+}
+#task-input{
+    border: none;
+    background-color: rgba(211, 255, 255, 0.723);
+    padding: 3px 5px;
+    height: 30px;
+    width: 50%;
+}
+#add-button{
+    height: 28px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.task-area{
+    border: 2px solid skyblue;
+    background-color: #fff;
+}
+
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid skyblue;
+    position: relative;
+    font-weight: 500;
+}
+.task-tabs div{
+    padding: 1em;
+    color: #424242;
+}
+.task-tabs div:hover{
+    color: #757575;
+}
+.task-tabs div:active{
+    color: #263238;
+}
+#under-line{
+    height: 4px;
+    background-color: rgb(67, 208, 255);
+    position: absolute;
+    width: 60px;
+    left: 0;
+    top: 52px;
+    border-radius: 4px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.task-done{
+    text-decoration: line-through;
+}
+
+.task-tabs div{
+    cursor: pointer;
+}
+
+.task-board{
+    background-color: white;
+}
+
+.fa-regular{
+    font-size: 20px;
+    margin-right: 5px;
+    color: rgb(78, 196, 242);
+}
+.fa-regular:hover{
+    color: blue;
+}
+
+.fa-solid{
+    font-size: 20px;
+    color: rgb(78, 196, 242);
+}
+.fa-solid:hover{
+    color: blue;
+}
