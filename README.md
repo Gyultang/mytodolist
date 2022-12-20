@@ -16,3 +16,5 @@ Html, Css, JavaScript
 # 도메인
 https://todolist-gyu.netlify.app/
 
+# 블로그
+https://velog.io/@gyultang/JavaScript%EB%A1%9C-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0
